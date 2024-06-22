@@ -1,0 +1,13 @@
+		int n;
+		@SuppressWarnings("resource")
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter Number of series that you want to generate in reverse");
+		n = scan.nextInt();
+		
+		
+		
+		for (int i=n;i>=0;i--) {
+		System.out.println(i);
+	
+		}
